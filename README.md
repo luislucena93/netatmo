@@ -10,13 +10,13 @@ A node.js module to interface with the [netatmo api](http://dev.netatmo.com/) AP
 ## Install
 
 ```sh
-npm install netatmo
+npm install netatmo-wenu
 ```
 
 ## Example #1
 
 ```javascript
-var netatmo = require('netatmo');
+var netatmo = require('netatmo-wenu');
 
 var auth = {
   "client_id": "",
@@ -306,4 +306,4 @@ api.on("warning", function(error) {
 
 ## License
 
-MIT © [Ali Karbassi](http://karbassi.com)
+MIT © 
