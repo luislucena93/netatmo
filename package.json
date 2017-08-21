@@ -1,6 +1,6 @@
 {
   "name": "netatmo-mc",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "A node.js module to hook into the netatmo API with multiple clients.",
   "main": "netatmo.js",
   "scripts": {
