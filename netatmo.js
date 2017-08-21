@@ -11,13 +11,13 @@ var client_id;
 var client_secret;
 var scope;
 var access_token;
-
 /**
  * @constructor
  * @param args
  */
 var netatmo = function (args) {
   EventEmitter.call(this);
+  access_token = null;
   this.authenticate(args);
 };
 
@@ -219,7 +219,7 @@ netatmo.prototype.getStationsData = function (options, callback) {
     this.emit('get-stationsdata', err, devices);
 
     if (callback) {
-      return callback(err, devices);
+      return callback(err, {username, devices});
     }
 
     return this;

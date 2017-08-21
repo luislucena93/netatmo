@@ -1,7 +1,7 @@
 {
-  "name": "netatmo-wenu",
-  "version": "2.1.2",
-  "description": "A node.js module to hook into the netatmo API.",
+  "name": "netatmo-mc",
+  "version": "2.1.4",
+  "description": "A node.js module to hook into the netatmo API with multiple clients.",
   "main": "netatmo.js",
   "scripts": {
     "test": "rm -rf ./node_modules && npm install && node test.js"
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karbassi/netatmo.git"
+    "url": "https://github.com/luislucena93/netatmo.git"
   },
   "bugs": {
-    "url": "https://github.com/karbassi/netatmo/issues"
+    "url": "https://github.com/luislucena93/netatmo.git"
   },
-  "homepage": "https://github.com/karbassi/netatmo",
+  "homepage": "https://github.com/luislucena93/netatmo.git",
   "keywords": [
     "netatmo",
     "netatmo api"
